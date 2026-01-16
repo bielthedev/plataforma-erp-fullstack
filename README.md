@@ -63,3 +63,24 @@ Exemplo de Controller REST utilizando Spring Boot para exposição de endpoints.
 ---
 
 ## 📂 Estrutura do Projeto
+plataforma-erp-fullstack
+├── backend-springboot
+│ ├── controller
+│ ├── service
+│ ├── repository
+│ ├── model
+│ └── resources
+│
+├── frontend-react
+│ ├── components
+│ ├── pages
+│ └── services
+│
+├── database
+│ ├── schema.sql
+│ └── data.sql
+│
+└── docs
+├── banner.png
+├── arquitetura.png
+└── codigo-backend.png
