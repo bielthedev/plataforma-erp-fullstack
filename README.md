@@ -6,7 +6,7 @@ Projeto **Fullstack** desenvolvido com foco em **arquitetura, boas práticas e e
 
 ## 🖼️ Arquitetura do Projeto
 
-![Arquitetura do Projeto](docs/arquitetura-erp-fullstack.png)
+![Arquitetura do Projeto](docs/banner.png)
 
 ---
 
