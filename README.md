@@ -1,86 +1,85 @@
-# 🚀 Plataforma ERP Fullstack
+# 🚀 Plataforma ERP Fullstack Avançada
 
-![Banner do Projeto](./docs/banner.png)
-
-## 📌 Sobre o Projeto
-A **Plataforma ERP Fullstack** é um projeto desenvolvido para simular um **sistema real de gestão empresarial**, aplicando boas práticas de arquitetura, separação de responsabilidades e integração entre backend, frontend e banco de dados.
-
-O objetivo é demonstrar conhecimento técnico em **desenvolvimento Fullstack**, com foco em ambientes corporativos.
+Projeto **Fullstack** desenvolvido com foco em **arquitetura, boas práticas e escalabilidade**, simulando um **ERP corporativo** utilizado para gestão financeira, cadastros, autenticação e relatórios.
 
 ---
 
-## 🧠 Arquitetura do Sistema
+## 🖼️ Arquitetura do Projeto
 
-![Arquitetura do Projeto](./docs/arquitetura.png)
+![Arquitetura do Projeto](docs/arquitetura-erp-fullstack.png)
 
-O sistema segue o padrão de **arquitetura em camadas**, amplamente utilizado em aplicações profissionais.
+---
 
-### 🔹 Backend (Spring Boot)
-- **Controller** – Responsável por receber as requisições HTTP
-- **Service** – Camada de regras de negócio
-- **Repository** – Acesso aos dados
-- **Model** – Representação das entidades
+## 🎯 Objetivo do Projeto
 
-### 🔹 API REST
-- Comunicação desacoplada entre backend e frontend
-- Preparada para futuras integrações (mobile, BI, etc.)
+Este projeto foi criado com o objetivo de demonstrar na prática:
 
-### 🔹 Frontend (React)
+- Arquitetura **Fullstack moderna**
+- Comunicação via **API REST**
+- Separação de responsabilidades (Backend e Frontend)
+- Boas práticas com **Spring Boot**
+- Frontend desacoplado em **React**
+- Integração com **banco de dados SQL**
+- Estrutura preparada para evolução e escalabilidade
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+### 🔙 Backend
+- **Java 17**
+- **Spring Boot**
+- Spring Web (REST API)
+- Spring Data JPA
+- Hibernate
+- Validações com Bean Validation
+- Arquitetura em camadas:
+  - Controller
+  - Service
+  - Repository
+  - Model / DTO
+
+### 🎨 Frontend
+- **React**
+- JavaScript (ES6+)
+- Axios (consumo da API)
 - Componentização
-- Camada de serviços para consumo da API
-- Estrutura organizada e escalável
+- Hooks
+- Dashboard administrativo
 
----
-
-## 🖥️ Exemplo de Código
-
-![Código Spring Boot](./docs/codigo-backend.png)
-
-Exemplo de Controller REST utilizando Spring Boot para exposição de endpoints.
-
----
-
-## 🛠 Tecnologias Utilizadas
-
-### Backend
-- Java  
-- Spring Boot  
-- API REST  
-
-### Frontend
-- React  
-- JavaScript  
-- Axios  
-
-### Banco de Dados
-- SQL  
-
-### Outros
-- Git  
-- GitHub  
-- Arquitetura em camadas  
+### 🗄️ Banco de Dados
+- **SQL**
+- Scripts de criação de tabelas
+- Relacionamentos entre entidades
+- Dados estruturados para relatórios
 
 ---
 
 ## 📂 Estrutura do Projeto
-plataforma-erp-fullstack
-├── backend-springboot
-│ ├── controller
-│ ├── service
-│ ├── repository
-│ ├── model
-│ └── resources
+
+```bash
+plataforma-erp-fullstack/
+├── backend/
+│   ├── src/main/java
+│   │   ├── controller
+│   │   ├── service
+│   │   ├── repository
+│   │   ├── model
+│   │   └── dto
+│   └── src/main/resources
+│       ├── application.properties
+│       └── schema.sql
 │
-├── frontend-react
-│ ├── components
-│ ├── pages
-│ └── services
+├── frontend/
+│   ├── src
+│   │   ├── components
+│   │   ├── pages
+│   │   ├── services
+│   │   └── App.js
+│   └── package.json
 │
-├── database
-│ ├── schema.sql
-│ └── data.sql
+├── docs/
+│   └── arquitetura-erp-fullstack.png
 │
-└── docs
-├── banner.png
-├── arquitetura.png
-└── codigo-backend.png
+└── README.md
+
