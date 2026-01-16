@@ -6,7 +6,7 @@ Projeto **Fullstack** desenvolvido com foco em **arquitetura, boas práticas e e
 
 ## 🖼️ Arquitetura do Projeto
 
-![Arquitetura do Projeto]![Banner]([https://github.com/bielthedev/sistema-gestao-financeira-spring-react/blob/main/banner.png?raw=true](https://github.com/bielthedev/plataforma-erp-fullstack/blob/main/banner.png?raw=true)
+![Banner](https://github.com/bielthedev/plataforma-erp-fullstack/blob/main/banner.png?raw=true)
 
 ---
 
