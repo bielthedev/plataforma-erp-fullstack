@@ -1,0 +1,1 @@
+function App() { return <div>ERP</div> } export default App;
